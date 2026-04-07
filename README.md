@@ -2,6 +2,8 @@
 
 **Betwise** is a high-performance engine for a decentralized **prediction market** platform, inspired by systems like [Polymarket](https://polymarket.com/). It allows users to buy and sell shares on the outcomes of future events with dynamic market-based pricing.
 
+![Project Architecture](images/diagram-export-4-1-2026-7_57_26-PM.png)
+
 The architecture is designed to be modular, scalable, and real-time. Orders are processed in-memory for ultra-fast matching, while persistence and analytics are handled asynchronously via Redis-backed workers and PostgreSQL.
 
 > Think of it as a mini NASDAQ for betting on real-world questions like:
@@ -14,7 +16,7 @@ The architecture is designed to be modular, scalable, and real-time. Orders are 
 ## 🎥 Demo
 
 Check out the full working demo of Betwise in action:  
-[▶️ Watch Demo on Twitter](https://x.com/VarunArora80243/status/1920876699891200213)
+[▶️ Watch Demo](https://vimeo.com/1179316375?fl=pl&fe=sh)
 
 ---
 
